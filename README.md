@@ -9,7 +9,7 @@ O objetivo principal é criar um modelo capaz de aprender padrões nos dados his
 
 ## Preparação do Conjunto de Dados
 
-Antes do treinamento, foi realizado etapas de pré-processamento nos dados. O conjunto de treinamento é carregado a partir de um arquivo CSV contendo informações históricas de preços das ações. Os dados são escalonados para uma faixa entre 0 e 1 usando o MinMaxScaler do scikit-learn. Em seguida, criamos sequências temporais de 60 dias como entrada para a rede neural, com o objetivo de capturar padrões de curto prazo.
+Antes do treinamento, foram realizadas etapas de pré-processamento nos dados. O conjunto de treinamento é carregado a partir de um arquivo CSV contendo informações históricas de preços das ações. Os dados são escalonados para uma faixa entre 0 e 1 usando o MinMaxScaler do scikit-learn. Em seguida, criamos sequências temporais de 60 dias como entrada para a rede neural, com o objetivo de capturar padrões de curto prazo.
 
 ## Construção da Rede Neural Recorrente
 
