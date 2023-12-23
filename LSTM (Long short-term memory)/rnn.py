@@ -27,8 +27,6 @@ X_train, y_train = np.array(X_train), np.array(y_train)
 # Reshaping
 X_train = np.reshape(X_train, (X_train.shape[0], X_train.shape[1], 1))
 
-
-
 # Part 2 - Building the RNN
 
 # Importing the Keras libraries and packages
@@ -64,8 +62,6 @@ regressor.compile(optimizer = 'adam', loss = 'mean_squared_error')
 
 # Fitting the RNN to the Training set
 regressor.fit(X_train, y_train, epochs = 100, batch_size = 32)
-
-
 
 # Part 3 - Making the predictions and visualising the results
 
