@@ -23,7 +23,7 @@ O modelo é compilado com o otimizador Adam e a função de perda mean squared e
 
 Após o treinamento, o modelo é utilizado para fazer previsões sobre os preços das ações em 2017. Os resultados previstos são invertidos para a escala original e comparados com os preços reais. A visualização gráfica utilizando Matplotlib permite uma análise fácil e intuitiva do desempenho do modelo.
 
-![Resultados de Previsão de Ações da Google](https://cdn.discordapp.com/attachments/1184622679685333042/1187916501722869760/download_2.png?ex=6598a074&is=65862b74&hm=c21f1105db4d7b8d6899d1e067f2f754747c54263de000ad121818feb37ff7fb)
+![Resultados de Previsão de Ações da Google](https://cdn.discordapp.com/attachments/1184622679685333042/1210763590311870464/download.png?ex=65ebbe76&is=65d94976&hm=94edecbe2d8e58648a584db9207bac242d9ab3a75e8f4a2f1940aa8109ac676c&)
 ## Dependências
 
 Certifique-se de ter as seguintes bibliotecas instaladas:
